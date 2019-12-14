@@ -2,7 +2,6 @@ import os
 import logging
 import csv
 
-from pprint import pprint
 from tinydb import TinyDB, Query
 from datetime import datetime
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
