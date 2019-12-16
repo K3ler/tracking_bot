@@ -44,7 +44,7 @@ def answer(update, context):
 	db = TinyDB('db.json')
 	store = db.table(id)
 	chat_id = update.message.chat_id
-	due = 5
+	due = 30*60
 
 	data = {
 		"message": update.message.text,
