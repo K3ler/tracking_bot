@@ -4,6 +4,7 @@
 ```
 pip3 install python-telegram-bot
 pip3 install tinydb
+pip3 install timezonefinder
 ```
 #### Then
 ```
