@@ -99,7 +99,6 @@ def saveToCSV(id):
 	f = csv.writer(open(csvPath, "w+", encoding="utf-8"))
 	f.writerow(['Что делали?', 'Время'])
 
-	print(store.all())
 	for item in items:
 		f.writerow([item['message'], item["date"]])
 
